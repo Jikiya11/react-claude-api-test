@@ -51,7 +51,7 @@ function App() {
             {error}
           </Box>
         )}
-        <TextField variant="outlined" label="Plan" id="plan" value={plan} multiline rows={4} slotProps={{input: { readOnly: true }}}/>
+        <TextField variant="outlined" label="Plan" id="plan" value={plan} multiline rows={10} slotProps={{input: { readOnly: true }}}/>
       </Box>
     </div>
   );
